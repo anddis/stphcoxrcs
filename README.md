@@ -14,11 +14,11 @@
 
 
 ### Installation
-To install the last version submitted to the [Boston College Statistical Software Components (SSC)](https://ideas.repec.org/c/boc/bocode/s458073.html), type
+To install the last version of `stphcoxrcs` from GitHub, type
 ```
-ssc install stphcoxrcs
+net install stphcoxrcs, from("https://raw.githubusercontent.com/anddis/stphcoxrcs/master/")
 ```
-from within a web-aware Stata. Currently, version **1.6 (2015-06-17)** is available from the SSC.
+from within a web-aware Stata.
 
 ### Authors
 Andrea Discacciati, Viktor Oskarsson, and Nicola Orsini
