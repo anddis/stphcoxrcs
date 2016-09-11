@@ -6,7 +6,7 @@
 {title:Title}
 
 {p2colset 5 18 20 2}{...}
-{p2col :{hi:stphcoxrcs} {hline 1}}Check proportional-hazards assumption using restricted cubic splines{p_end}
+{p2col :{hi:stphcoxrcs} {hline 1}}Check proportional-hazards assumption after a Cox model using restricted cubic splines{p_end}
 {p2colreset}{...}
 
 
@@ -97,18 +97,17 @@
 
 {title:References}
 
+{pstd}Hess, K.R. (1994). Assessing time-by-covariate interactions in porportional hazards regression models using cubic spline functions. Statistics in Medicine, 13, 1045-1062.{p_end}
+
 {pstd}Heinzl, H., & Kaider, A. (1997). Gaining more flexibility in Cox proportional hazards regression models with cubic spline functions. Computer methods and programs in biomedicine, 54(3), 201-208.{p_end}
 
 {pstd}Therneau, T. M., & Grambsch, P. M. (2000). Modeling survival data: extending the Cox model. Springer-Verlag. New York.{p_end}
-
-{pstd}Royston, P., & Lambert, P. C. (2011). Flexible parametric survival analysis using Stata: beyond the Cox model. Stata Press books.{p_end}
 
 {hline}
 
 {title:Authors}
 
 {pstd}{browse "http://anddis.github.io":Andrea Discacciati}{p_end}
-{pstd}{browse "http://ki.se/imm/nutrition-en":Unit of Nutritional Epidemiology}{p_end}
 {pstd}{browse "http://www.imm.ki.se/biostatistics/":Unit of Biostatistics}{p_end}
 {pstd}{browse "http://ki.se/imm":Institute of Environmental Medicine, Karolinska Institutet}{p_end}
 {pstd}Stockholm, Sweden{p_end}
@@ -119,9 +118,7 @@
 {pstd}Stockholm, Sweden{p_end}
 
 {pstd}{browse "http://nicolaorsini.altervista.org":Nicola Orsini}{p_end}
-{pstd}{browse "http://ki.se/imm/nutrition-en":Unit of Nutritional Epidemiology}{p_end}
-{pstd}{browse "http://www.imm.ki.se/biostatistics/":Unit of Biostatistics}{p_end}
-{pstd}{browse "http://ki.se/imm":Institute of Environmental Medicine, Karolinska Institutet}{p_end}
+{pstd}{browse "http://ki.se/phs":Department of Public Health, Karolinska Institutet}{p_end}
 {pstd}Stockholm, Sweden{p_end}
 
 {hline}
