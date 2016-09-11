@@ -1,0 +1,21 @@
+*************** stphcoxrcs.toc
+d 'STPHCOXRCS': check the PH assumption after a Cox model using RCS
+d
+d stphcoxrcs checks the proportional-hazards assumption for one covariate 
+d of interest (binary or continuous) after fitting a model with stcox. 
+d In particular, stphcoxrcs models the natural logarithm of analysis time using 
+d restricted cubic splines transformations, which are interacted with the 
+d covariate specified in varname. A joint Wald (default) or likelihood ratio 
+d test of all the interaction terms is carried out to test the 
+d proportional-hazards assumption. Lastly, stphcoxrcs produces a graph of the
+d time-varying hazard ratio.
+d
+d Distribution-Date: 20150617
+d
+d Authors: A.Discacciati, V.Oskarsson, N.Orsini
+d			Karolinska Institutet, Sweden
+d
+d Support: email andrea.discacciati@ki.se
+d
+f stphcoxrcs.ado
+f stphcoxrcs.sthlp

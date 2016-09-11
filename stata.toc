@@ -1,0 +1,4 @@
+*************** stata.toc
+v 3
+d 'STPHCOXRCS': check the PH assumption after a Cox model using RCS
+p stphcoxrcs
