@@ -4,7 +4,7 @@
 ---
 
 
-### Description of the command
+### Description
 `stphcoxrcs` checks the proportional-hazards assumption for one covariate of interest (binary or
    continuous) after fitting a model with `stcox`. In particular, `stphcoxrcs` models the natural
    logarithm of analysis time using restricted cubic splines transformations, which are interacted with the
